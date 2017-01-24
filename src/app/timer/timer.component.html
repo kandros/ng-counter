@@ -1,6 +1,6 @@
 <p>
   counter: {{counter}}
-  <button *ngIf="running" (click)="stopInterval()">stop</button>
-  <button *ngIf="!running" (click)="startInterval()">start</button>
+  <button [disabled]="!running" (click)="stopInterval()">stop</button>
+  <button [disabled]="running" (click)="startInterval()">start</button>
   <button (click)="resetCounter(true)">reset</button>
 </p>
