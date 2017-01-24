@@ -1,10 +1,10 @@
-import { NgPomodoroPage } from './app.po';
+import { NgCounterPage } from './app.po';
 
-describe('ng-pomodoro App', function() {
-  let page: NgPomodoroPage;
+describe('ng-Counter App', function() {
+  let page: NgCounterPage;
 
   beforeEach(() => {
-    page = new NgPomodoroPage();
+    page = new NgCounterPage();
   });
 
   it('should display message saying app works', () => {

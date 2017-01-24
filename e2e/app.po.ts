@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class NgPomodoroPage {
+export class NgCounterPage {
   navigateTo() {
     return browser.get('/');
   }
