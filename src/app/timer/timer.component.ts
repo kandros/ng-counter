@@ -7,8 +7,8 @@ import {Component, OnInit} from '@angular/core';
 })
 export class TimerComponent implements OnInit {
   counter: number = 0;
-  interval;
   running: boolean = false;
+  private interval;
 
   startInterval() {
     this.interval = setInterval(() => {
